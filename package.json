@@ -1,0 +1,18 @@
+{
+  "name": "Tanki_Online",
+  "version": "0.1.1",
+  "description": "Tanki Online Desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/CuteBladeYT/Tanki-Online-Client",
+  "author": "UnitedCatdom",
+  "license": "DSMS-v1.2",
+  "devDependencies": {
+    "electron": "^17.0.1"
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1"
+  }
+}
