@@ -36,8 +36,8 @@ function createWindow() {
 app.whenReady().then(() => {
   createWindow();
 
-  app.commandLine.appendSwitch("disable-frame-rate-limit");
-  app.commandLine.appendSwitch("disable-gpu-vsync");
+  // app.commandLine.appendSwitch("disable-frame-rate-limit");
+  // app.commandLine.appendSwitch("disable-gpu-vsync");
 
   rpc.login({ clientId: "974379405629591572" }).catch(console.error).then(c => {
     c.setActivity({
